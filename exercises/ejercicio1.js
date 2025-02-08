@@ -4,7 +4,8 @@ const alumnno = {
     apellidos: 'Ruiz Muñoz',
     temasBootcamp: [
         {curso: 'React',fechaInicio:'2025-05-12'},
-        {curso: 'Node.js', fechaInicio:'2025-03-10'}
+        {curso: 'Node.js', fechaInicio:'2025-03-10'},
+        {curso: 'Git', fechaInicio: '2025-01-01'}
     ],
     busquedaActiva: true 
 }
