@@ -1,5 +1,13 @@
-const makeSum = (a,b) => {
-    return a + b
+
+const alumnno = {
+    nombre: 'Juan David',
+    apellidos: 'Ruiz Muñoz',
+    temasBootcamp: [
+        {curso: 'React',fechaInicio:'2025-05-12'},
+        {curso: 'Node.js', fechaInicio:'2025-03-10'}
+    ],
+    busquedaActiva: true 
 }
 
-const sum1 = makeSum(5,3)
+const reactFechaInicio = alumnno.temasBootcamp[0].fechaInicio
+console.log(reactFechaInicio)
