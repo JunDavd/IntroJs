@@ -31,12 +31,12 @@ const datos = [
 
 //Función 1
 const desarrolladoresJavascript = (datos,language = 'JavaScript') =>{
-    return datos.filter(dato => {
+    return JSON.stringify(datos.filter(dato => {
         return  dato.habilidades.includes(language)
-    })
+    }),null,2)
 }
 const result1 = desarrolladoresJavascript(datos)
-console.log(JSON.stringify(result1,null,2))
+console.log(resul2)
 
 
 //Función 2
