@@ -3,7 +3,7 @@ const csvToFile = (input) => {
     let listToModified = [...input]
     let fileType = listToModified.splice(listToModified.length - 1, 1)
     listToModified = listToModified.join('/')
-    resultFile = listToModified + `.${fileType.toString()}`
+    resultFile = `${listToModified}.${fileType.toString()}`
     return resultFile
 }
 
